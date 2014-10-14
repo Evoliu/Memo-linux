@@ -1,0 +1,12 @@
+Today I added a new 4TB diskdrive to my desktop(Ubuntu 12.04)
+  I have tried "gparted" and it worked well , but I choosed using the disktool coming from Linux, finally.
+  
+Here is the steps:
+         (1) change dir to "root"
+         (2) sudo df ---see all disk 
+         (3) partition : 基本パーティション
+         (4) format : ext4
+         (5) mount /"THE DISK" /DIR
+         (6) change dir to "THE DISK" and mkdir a dir 
+        ----done
+         
